@@ -2,22 +2,22 @@ body {
   background-color: rgb(142, 192, 200);
 }
 
-H1 {
+h1 {
   Color: rgb(39, 89, 98);
   Font-family: Cookie, script;
   font-size: 4rem;
   margin: 10px;
 }
 
-H2{
+h2{
   color: rgb(39, 89, 98);
 }
 
-H3 {
+h3 {
   color: rgb(39, 89, 98);
 }
 
-P {
+p {
   Color: rgb(66, 149, 163);
   Font-family: Raleway, sans-serif;
   font-size: 1.5rem;
@@ -78,4 +78,5 @@ li a {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 800px;
 }
