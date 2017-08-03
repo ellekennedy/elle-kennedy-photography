@@ -1,0 +1,114 @@
+.container {
+
+}
+
+#header {
+  float: left;
+}
+
+.nav {
+background-image: url("https://ellekennedyphotography.files.wordpress.com/2017/07/img_0216-edit.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+}
+
+.transbox {
+ background-color: #fff;
+  opacity: 0.5;
+}
+
+.menu {
+border: 5px, 0px, 5px, 0px solid rgb(39, 89, 98);
+back-ground-color: #fff;
+opacity: 0.5;
+}
+
+.menu a {
+  color: rgb(39, 89, 98);
+  text-align: center;
+  font-family: raleway, sans-serif;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: none;
+  color: rgb(66, 149, 163);
+}
+
+.menu .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a:not(:first-child) {display: none;}
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#topmenu {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+body {
+background-color: rgb(142, 192, 200);
+}
+
+H1 {
+Color: rgb(39, 89, 98);
+Font-family: Cookie, script;
+font-size: 4rem;
+margin: 10px;
+}
+
+H2{
+  color: rgb(39, 89, 98);
+}
+
+H3 {
+  color: rgb(39, 89, 98);
+}
+
+P {
+Color: rgb(66, 149, 163);
+Font-family: Raleway, sans-serif;
+font-size: 1.5rem;
+}
+
+.landings {
+width:30%;
+margin:2.5%;
+}
