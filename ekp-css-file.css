@@ -19,6 +19,7 @@ background-size: cover;
 }
 
 .menu {
+font-size: 2rem;
 border: 5px, 0px, 5px, 0px solid rgb(39, 89, 98);
 back-ground-color: #fff;
 opacity: 0.5;
