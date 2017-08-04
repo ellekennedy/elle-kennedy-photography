@@ -1,5 +1,6 @@
-* {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+*{
+  /*border: 1px solid #000;*/
+  box-sizing: border-box;
 }
 
 body {
@@ -11,9 +12,9 @@ h1 {
   Font-family: Cookie, script;
   font-size: 4rem;
   margin-left: 10px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  display: inline-block;
+  display: inline;
 }
 
 h2{
@@ -27,6 +28,7 @@ h3 {
   font-size: 1.5rem;
   margin-left: 200px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 p {
@@ -58,9 +60,10 @@ li a {
 
 .menu {
   font-size: 2rem;
-  border: 5px, 0px, 5px, 0px solid rgb(39, 89, 98);
-  background-color: #fff;
-  opacity: 0.5;
+  color: (39, 89, 98);
+  border-top: 3px solid rgb(39, 89, 98);
+  border-bottom: 3px solid rgb(39, 89, 98);
+  background-color: (255, 255, 255, 0.5);
 }
 
 .menu a {
@@ -68,28 +71,27 @@ li a {
   text-align: center;
   font-family: raleway, sans-serif;
   text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .menu a:hover {
-  background-color: none;
   color: rgb(66, 149, 163);
 }
 
 .transbox {
-  background-color: #fff;
-  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.5);
   display: inline-block;
   width: 100%;
 }
 
 .nav {
-  background-image: url("https://ellekennedyphotography.files.wordpress.com/2017/07/img_0216-edit.jpg");
+  background-image: url("https://ellekennedyphotography.files.wordpress.com/2017/08/img_3813.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   height: 800px;
 }
-
 
 .landings {
   width:cover;
@@ -97,7 +99,8 @@ li a {
 
 .landings a img {
   align: center;
-  width: 25%;
+  width: 28%;
   margin: 2.5%;
   padding: 0;
+  border: 3px solid rgb(39, 89, 98);
 }
