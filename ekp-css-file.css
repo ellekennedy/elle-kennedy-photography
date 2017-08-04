@@ -73,6 +73,8 @@ li a {
   text-decoration: none;
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
+  bottom: 60px;
 }
 
 .menu a:hover {
@@ -83,6 +85,17 @@ li a {
   background-color: rgba(255, 255, 255, 0.5);
   display: inline-block;
   width: 100%;
+}
+
+.transbox h1 {
+  position: relative;
+  bottom: 70px;
+}
+
+.transbox h3 {
+  position: relative;
+  bottom: 72px;
+  left: 125px;
 }
 
 .nav {
