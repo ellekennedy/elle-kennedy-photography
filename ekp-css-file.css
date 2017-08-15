@@ -59,7 +59,6 @@ li a {
 
 .menu {
   font-size: 2rem;
-  color: rgb(39, 89, 98);
   border-top: 3px solid rgb(39, 89, 98);
   border-bottom: 3px solid rgb(39, 89, 98);
   background-color: rgba(255, 255, 255, 0.5);
@@ -73,11 +72,67 @@ li a {
   margin-left: 20px;
   margin-right: 20px;
   position: relative;
+  left: 165px;
   bottom: 60px;
 }
 
 .menu a:hover {
   color: rgb(39, 89, 98);
+  font-weight: bold;
+}
+
+.submenu1 {
+    float: left;
+    font-family: raleway, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(39, 89, 98);
+    border-bottom: 5px solid rgb(39, 89, 98);
+      width: 100%
+}
+
+.submenu1 a {
+  /*padding: 10px;*/
+  color: rgb(39, 89, 98);
+  text-align: center;
+  font-family: raleway, sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  left: 165px;
+  bottom: 30px;
+}
+
+.submenu1 a:hover {
+  color: rgb(39, 89, 98);
+  font-weight: bold;
+}
+
+.submenu2 {
+    float: left;
+    font-family: raleway, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(39, 89, 98);
+    border-bottom: 5px solid rgb(39, 89, 98);
+      width: 100%
+}
+
+.submenu2 a {
+  /*padding: 10px;*/
+  color: rgb(39, 89, 98);
+  text-align: center;
+  font-family: raleway, sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  left: 165px;
+  bottom: 30px;
+}
+
+.submenu2 a:hover {
+  color: rgb(39, 89, 98);
+  font-weight: bold;
 }
 
 .transbox {
@@ -88,12 +143,13 @@ li a {
 
 .transbox img {
   position: relative;
-  left: 10px;
-  top: 10px;
+  left: 13px;
+  top: 13px;
 }
 
 .transbox h1 {
   position: relative;
+  left: 50px;
   bottom: 70px;
 }
 
@@ -104,11 +160,11 @@ li a {
 }
 
 .nav {
-  background-image: url("https://ellekennedyphotography.files.wordpress.com/2017/08/img_3813.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: url(https://ellekennedyphotography.files.wordpress.com/2017/08/img_3813.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 800px;
 }
 
 .landings {
@@ -119,6 +175,29 @@ li a {
   align: center;
   width: 28%;
   margin: 2.5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 0;
   border: 3px solid rgb(39, 89, 98);
+}
+
+.portfolio-links a {
+  color: rgb(39, 89, 98);
+  font-family: raleway, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 28%;
+  margin: 2.5%;
+  margin-top: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  align: center;
+  border: 3px solid rgb(39, 89, 98);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.portfolio-links a:hover {
+  font-weight: bold;
 }
